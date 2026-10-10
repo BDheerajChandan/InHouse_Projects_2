@@ -1,0 +1,11 @@
+{
+  "Languages": ["Python", "SQL"],
+  "Frameworks & Libraries": ["FastAPI", "React.js", "Angular", "LangChain", "LangGraph"],
+  "AI & ML": ["Machine Learning", "Deep Learning", "NLP", "TF-IDF", "Scikit-learn", "Model Optimization"],
+  "Generative AI": ["RAG", "LLMs", "Agentic AI", "Prompt Engineering","AI Agents","Embeddings","Semantic Search","Vector Search","Conversational AI"],
+  "Databases": ["MySQL", "MongoDB", "SQLite"],
+  "Vector Databases":["Milvus", "FAISS", "Chroma"],
+  "Tools & Platforms": ["Git", "Docker", "Airflow", "Linux", "Tableau", "Excel"],
+  "Core Concepts": ["ETL Pipelines", "Data Analysis", "System Design", "Data Structures"],
+  "Spoken Languages": ["Telugu", "English", "Hindi", "Odia"]
+}

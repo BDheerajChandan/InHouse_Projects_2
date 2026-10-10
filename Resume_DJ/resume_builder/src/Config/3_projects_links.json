@@ -1,0 +1,32 @@
+{
+  "Project 1": {
+    "Title": "Agentic AI Travel Booking Assistant",
+    "Link": "https://github.com/BDheerajChandan/InHouse_Projects/tree/main/AI%20Agent%20-%20Project%201%20%2C%20Travel%20booking",
+    "Year": "2026",
+    "Description": "Expanded an Agentic AI-based travel booking assistant that leverages Large Language Models (LLMs) and AI agents to understand user queries and automate travel-related tasks. Planned multistep reasoning workflows to handle itinerary planning, travel recommendations, and contextual decision-making using tool-integrated AI systems."
+  },
+  "Project 2": {
+    "Title": "AI-Powered Workflow Automation using LangGraph and LangChain with Chatbot UI Integration",
+    "Link": "https://github.com/BDheerajChandan/InHouse_Projects/tree/main/Agentic_AI_Workflow",
+    "Year": "2026",
+    "Description": "Developed a modular AI workflow automation platform using LangChain and LangGraph with configurable workflows, state management, conditional routing, and tool calling. Implemented AI agent and multistep workflows for RAG, document processing, retrieval, validation, and automated task execution. Integrated a React-based chatbot UI with FastAPI backend APIs to enable conversational interaction and workflow execution. Used PostgreSQL for managing workflows, chatbot sessions, execution history, and results."
+  },
+  "Project 3": {
+    "Title": "Retrieval-Augmented Generation (RAG) Question Answering System",
+    "Link": "https://github.com/BDheerajChandan/InHouse_Projects/tree/main/RAG_QA",
+    "Year": "2026",
+    "Description": "Enhanced a Retrieval-Augmented Generation (RAG) based question answering system that processes documents from local directories, generates embeddings, and stores them in a vector database. Executed semantic search to retrieve relevant context and integrated Large Language Models (LLMs) to generate accurate, context-aware responses."
+  },
+  "Project 4": {
+    "Title": "AI Driven AutoML Pipeline",
+    "Link": "https://github.com/BDheerajChandan/CollegeProjects/tree/main/InHouse%20Projects/ML-DL_SelfProjects/ML%20Model%20Build%20Automation",
+    "Year": "2025",
+    "Description": "Engineered an systematized ML pipeline reducing model training time by 70%; evaluated 8+ algorithms with hyperparameter tuning using Python and Scikit-learn to select optimal models automatically."
+  },
+  "Project 5": {
+    "Title": "Python Data Ingestion and SQL Automation",
+    "Link": "https://github.com/BDheerajChandan/CollegeProjects/tree/main/InHouse%20Projects/Python_SelfProjects/Database%20AutoCreation",
+    "Year": "2023",
+    "Description": "Mechanized end-to-end data ingestion and SQL schema creation, cutting manual database setup time by 80% and processing 20+ external data sources using Python ETL pipelines."
+  }
+}

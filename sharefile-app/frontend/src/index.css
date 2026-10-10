@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0d0d14;
+    color: #e2e2ea;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111118;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #414049;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #62616b;
+  }
+}
+
+@layer components {
+  /* ── Drop Zone ─────────────────────────────────── */
+  .dropzone-base {
+    @apply relative border-2 border-dashed border-shark-600 rounded-2xl
+           transition-all duration-300 cursor-pointer
+           bg-shark-950/60 backdrop-blur-sm;
+  }
+
+  .dropzone-active {
+    @apply border-cyan-400 bg-cyan-400/5 scale-[1.01];
+    box-shadow: 0 0 40px rgba(34, 211, 238, 0.15), inset 0 0 40px rgba(34, 211, 238, 0.05);
+  }
+
+  .dropzone-accepted {
+    @apply border-emerald-400 bg-emerald-400/5;
+  }
+
+  /* ── File Card ─────────────────────────────────── */
+  .file-card {
+    @apply relative bg-shark-900/80 border border-shark-700/50 rounded-xl
+           p-4 flex items-start gap-3 backdrop-blur-sm
+           hover:border-shark-600 transition-all duration-200
+           animate-slide-up;
+  }
+
+  .file-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  /* ── Buttons ───────────────────────────────────── */
+  .btn-primary {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm
+           bg-cyan-500 text-white hover:bg-cyan-400
+           transition-all duration-200 active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium
+           text-shark-300 hover:text-white hover:bg-shark-700/60
+           transition-all duration-200 active:scale-95;
+  }
+
+  .btn-danger {
+    @apply flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium
+           text-red-400 hover:text-red-300 hover:bg-red-400/10
+           transition-all duration-200 active:scale-95;
+  }
+
+  /* ── Progress Bar ──────────────────────────────── */
+  .progress-bar {
+    @apply h-1.5 rounded-full bg-shark-700 overflow-hidden;
+  }
+
+  .progress-fill {
+    @apply h-full rounded-full bg-gradient-to-r from-cyan-500 to-emerald-400
+           transition-all duration-200;
+  }
+
+  /* ── Toast ─────────────────────────────────────── */
+  .toast {
+    @apply fixed bottom-6 right-6 z-50
+           flex items-center gap-3 px-4 py-3 rounded-xl
+           text-sm font-medium shadow-2xl
+           animate-slide-up border;
+  }
+
+  .toast-success {
+    @apply bg-emerald-400/10 border-emerald-400/30 text-emerald-300;
+  }
+
+  .toast-error {
+    @apply bg-red-400/10 border-red-400/30 text-red-300;
+  }
+
+  .toast-info {
+    @apply bg-cyan-400/10 border-cyan-400/30 text-cyan-300;
+  }
+
+  /* ── Stat Badge ────────────────────────────────── */
+  .stat-badge {
+    @apply flex items-center gap-2 bg-shark-800/60 border border-shark-700/40
+           rounded-lg px-3 py-2 text-sm;
+  }
+
+  /* ── Code / URL display ────────────────────────── */
+  .url-box {
+    @apply flex items-center gap-2 bg-shark-950 border border-shark-700/60
+           rounded-lg px-3 py-2 font-mono text-xs text-cyan-400
+           overflow-x-auto whitespace-nowrap;
+  }
+
+  /* ── Glow effects ──────────────────────────────── */
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 20px rgba(52, 211, 153, 0.3);
+  }
+}
+
+/* ── Background grid pattern ───────────────────────── */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ── Radial glow on hero ───────────────────────────── */
+.hero-glow {
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(34, 211, 238, 0.08), transparent);
+}

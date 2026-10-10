@@ -1,0 +1,264 @@
+/* ============================================================
+   index.css  —  ATS-friendly Resume Builder
+   ============================================================ */
+
+/* ── Reset ──────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  background: #d8d8d8;
+  font-family: 'Trebuchet MS', sans-serif;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* ── Typography system ──────────────────────────────────────── */
+.key-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #111;
+}
+
+.value-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 9px;
+  font-weight: normal;
+  color: #222;
+  line-height: 1.45;
+}
+
+.link-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 9px;
+  font-style: italic;
+  color: #0a0a8a;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.link-text:hover {
+  color: #000070;
+}
+
+.summary-text {
+  line-height: 1.55;
+}
+
+/* ── Sections ───────────────────────────────────────────────── */
+.resume-section {
+  margin-bottom: 9px;
+}
+
+.section-title {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-bottom: 1.2px solid #111;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+/* ── Entry blocks ───────────────────────────────────────────── */
+.entry-block {
+  /* margin-bottom: 6px; */
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0;
+  margin-bottom: 1px;
+  line-height: 1.4;
+}
+
+.entry-meta {
+  /* margin-bottom: 2px;
+  line-height: 1.1; */
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.skill-row {
+  /* margin-bottom: 3px; */
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.separator {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 9px;
+  color: #555;
+}
+
+.description-list {
+  list-style: disc;
+  padding-left: 14px;
+  margin-top: 2px;
+}
+
+.description-list li {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 9px;
+  color: #222;
+  margin-bottom: 1.5px;
+  line-height: 1.45;
+}
+
+/* ── Profile header ─────────────────────────────────────────── */
+.profile-header {
+  margin-bottom: 8px;
+  border-bottom: 1.5px solid #000;
+  padding-bottom: 7px;
+}
+
+.profile-name {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.profile-contact {
+  margin-bottom: 3px;
+}
+
+.pipe {
+  color: #555;
+  font-size: 9px;
+}
+
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 3px;
+  list-style: none;
+  padding: 0;
+}
+
+.profile-link-item {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+/* ── Page wrapper (screen only) ─────────────────────────────── */
+.resume-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 16px 48px;
+  min-height: 100vh;
+}
+
+/* ── A4 resume container ────────────────────────────────────── */
+.resume-container {
+  width: 210mm;
+  min-height: 297mm;
+  background: #ffffff;
+  padding: 13mm 14mm 13mm 14mm;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.20);
+}
+
+/* ── Download button ────────────────────────────────────────── */
+.download-btn-wrapper {
+  width: 210mm;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.download-btn {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  transition: background 0.15s;
+}
+
+.download-btn:hover  { background: #333; }
+.download-btn:active { background: #000; }
+
+/* ── Print / PDF media ──────────────────────────────────────── */
+@media print {
+  html, body {
+    background: #fff;
+  }
+
+  .resume-page-wrapper {
+    padding: 0;
+    background: #fff;
+  }
+
+  .download-btn-wrapper {
+    display: none !important;
+  }
+
+  .resume-container {
+    width: 100%;
+    min-height: unset;
+    box-shadow: none;
+    padding: 10mm 12mm;
+  }
+
+  .entry-block,
+  .resume-section {
+    page-break-inside: avoid;
+  }
+}
+
+.entry-header {
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+/* .link-text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+*/
+
+.link-text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 9px;
+  font-style: italic;
+  color: #0a0a8a;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.value-text {
+  /* display: block; */
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  text-align: justify;
+}

@@ -1,0 +1,23 @@
+{
+  "Degree_1": {
+    "Degree": "PG-Diploma in Big Data Analytics (DBDA)",
+    "Institution": "CDAC",
+    "Location": "Bangalore, Karnataka",
+    "From": "Mar 2024",
+    "To": "Aug 2024"
+  },
+  "Degree_2": {
+    "Degree": "B.Tech in Electrical and Electronics Engineering",
+    "Institution": "KIIT University",
+    "Location": "Bhubaneswar, Odisha",
+    "From": "Jul 2018",
+    "To": "Jun 2022"
+  },
+  "Degree_3": {
+    "Degree": "Class XII (CBSE)",
+    "Institution": "Sri Chaitanya Techno School",
+    "Location": "Visakhapatnam, Andhra Pradesh",
+    "From": "2016",
+    "To": "2018"
+  }
+}

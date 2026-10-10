@@ -1,0 +1,22 @@
+{
+  "Cert_1": {
+    "Title": "Deep Learning and ChatGPT",
+    "Issuer": "Udemy",
+    "Year": "2024"
+  },
+  "Cert_2": {
+    "Title": "Java Programming",
+    "Issuer": "Coursera",
+    "Year": "2021"
+  },
+  "Cert_3": {
+    "Title": "Python Programming",
+    "Issuer": "KIIT University",
+    "Year": "2021"
+  },
+  "Cert_4": {
+    "Title": "Robotics and Embedded Systems",
+    "Issuer": "KIIT Robotics Society",
+    "Year": "2020"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "Odia": {
+    "Sambad": {
+      "news_url": "https://sambad.in",
+      "rss_url": "https://sambad.in/feed"
+    },
+    "Dharitri": {
+      "news_url": "https://www.dharitri.com",
+      "rss_url": null
+    },
+    "Prameya News": {
+      "news_url": "https://www.prameyanews.com",
+      "rss_url": "https://www.prameyanews.com/feed"
+    },
+    "Kalinga TV": {
+      "news_url": "https://kalingatv.com",
+      "rss_url": "https://kalingatv.com/feed"
+    },
+    "Odisha TV": {
+      "news_url": "https://odishatv.in",
+      "rss_url": "https://odishatv.in/feed"
+    },
+    "Kanak News": {
+      "news_url": "https://kanaknews.com",
+      "rss_url": null
+    },
+    "Argus News": {
+      "news_url": "https://argusnews.in",
+      "rss_url": null
+    },
+    "Samaja": {
+      "news_url": "https://samajaepaper.in",
+      "rss_url": null
+    },
+    "OrissaPOST": {
+      "news_url": "https://www.orissapost.com",
+      "rss_url": null
+    }
+  },
+
+  "Telugu": {
+    "TV9 Telugu": {
+      "news_url": "https://www.tv9telugu.com",
+      "rss_url": "https://www.tv9telugu.com/feed"
+    },
+    "Eenadu": {
+      "news_url": "https://www.eenadu.net",
+      "rss_url": null
+    },
+    "Sakshi": {
+      "news_url": "https://www.sakshi.com",
+      "rss_url": "https://www.sakshi.com/rss"
+    },
+    "Andhra Jyothy": {
+      "news_url": "https://www.andhrajyothy.com",
+      "rss_url": "https://www.andhrajyothy.com/rss"
+    },
+    "Vaartha": {
+      "news_url": "https://www.vaartha.com",
+      "rss_url": null
+    },
+    "AP7AM": {
+      "news_url": "https://www.ap7am.com",
+      "rss_url": null
+    }
+  },
+
+  "Hindi": {
+    "Aaj Tak": {
+      "news_url": "https://www.aajtak.in",
+      "rss_url": "https://www.aajtak.in/rssfeeds"
+    },
+    "NDTV India": {
+      "news_url": "https://www.ndtv.in",
+      "rss_url": "https://feeds.feedburner.com/ndtvkhabar"
+    },
+    "Dainik Jagran": {
+      "news_url": "https://www.jagran.com",
+      "rss_url": "https://www.jagran.com/rss/news/national.xml"
+    },
+    "Dainik Bhaskar": {
+      "news_url": "https://www.bhaskar.com",
+      "rss_url": "https://www.bhaskar.com/rss-feed"
+    },
+    "Live Hindustan": {
+      "news_url": "https://www.livehindustan.com",
+      "rss_url": "https://www.livehindustan.com/rss"
+    },
+    "Amar Ujala": {
+      "news_url": "https://www.amarujala.com",
+      "rss_url": null
+    },
+    "Navbharat Times": {
+      "news_url": "https://navbharattimes.indiatimes.com",
+      "rss_url": null
+    }
+  },
+
+  "Tamil": {
+    "Daily Thanthi": {
+      "news_url": "https://www.dailythanthi.com",
+      "rss_url": "https://www.dailythanthi.com/rss"
+    },
+    "Dinamalar": {
+      "news_url": "https://www.dinamalar.com",
+      "rss_url": "https://www.dinamalar.com/rss.asp"
+    },
+    "Dinakaran": {
+      "news_url": "https://www.dinakaran.com",
+      "rss_url": null
+    },
+    "Dinamani": {
+      "news_url": "https://www.dinamani.com",
+      "rss_url": "https://www.dinamani.com/rssfeed"
+    },
+    "Maalaimalar": {
+      "news_url": "https://www.maalaimalar.com",
+      "rss_url": null
+    },
+    "Puthiya Thalaimurai": {
+      "news_url": "https://www.puthiyathalaimurai.com",
+      "rss_url": null
+    }
+  },
+
+  "Kannada": {
+    "Oneindia Kannada": {
+      "news_url": "https://kannada.oneindia.com",
+      "rss_url": "https://kannada.oneindia.com/rss"
+    },
+    "Vijayavani": {
+      "news_url": "https://www.vijayavani.net",
+      "rss_url": null
+    },
+    "Udayavani": {
+      "news_url": "https://www.udayavani.com",
+      "rss_url": "https://www.udayavani.com/rss"
+    },
+    "Prajavani": {
+      "news_url": "https://www.prajavani.net",
+      "rss_url": "https://www.prajavani.net/rss"
+    },
+    "Kannada Prabha": {
+      "news_url": "https://www.kannadaprabha.com",
+      "rss_url": null
+    }
+  },
+
+  "Malayalam": {
+    "Malayala Manorama": {
+      "news_url": "https://www.manoramaonline.com",
+      "rss_url": "https://www.manoramaonline.com/rss"
+    },
+    "Mathrubhumi": {
+      "news_url": "https://www.mathrubhumi.com",
+      "rss_url": "https://www.mathrubhumi.com/rss-feed"
+    },
+    "Asianet News": {
+      "news_url": "https://www.asianetnews.com",
+      "rss_url": "https://www.asianetnews.com/rss"
+    },
+    "Madhyamam": {
+      "news_url": "https://www.madhyamam.com",
+      "rss_url": null
+    },
+    "Deepika": {
+      "news_url": "https://www.deepika.com",
+      "rss_url": null
+    }
+  },
+
+  "English": {
+    "NDTV": {
+      "news_url": "https://www.ndtv.com/",
+      "rss_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+    },
+    "Times of India": {
+      "news_url": "https://timesofindia.indiatimes.com/",
+      "rss_url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"
+    },
+    "India Today": {
+      "news_url": "https://www.indiatoday.in/",
+      "rss_url": "https://www.indiatoday.in/rss/home"
+    },
+    "The Hindu": {
+      "news_url": "https://www.thehindu.com/",
+      "rss_url": "https://www.thehindu.com/news/feeder/default.rss"
+    },
+    "Indian Express": {
+      "news_url": "https://indianexpress.com/",
+      "rss_url": "https://indianexpress.com/feed/"
+    },
+    "Hindustan Times": {
+      "news_url": "https://www.hindustantimes.com/",
+      "rss_url": "https://www.hindustantimes.com/feeds/rss/topnews/rssfeed.xml"
+    },
+    "Firstpost": {
+      "news_url": "https://www.firstpost.com/",
+      "rss_url": "https://www.firstpost.com/commonfeeds/v1/mfp/rss/home.xml"
+    },
+    "The Print": {
+      "news_url": "https://theprint.in/",
+      "rss_url": "https://theprint.in/feed/"
+    },
+    "Scroll": {
+      "news_url": "https://scroll.in/",
+      "rss_url": "https://scroll.in/feeds/news.rss"
+    },
+    "The Wire": {
+      "news_url": "https://thewire.in/",
+      "rss_url": "https://thewire.in/feed"
+    }
+  }
+}
