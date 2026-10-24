@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 13930
+/Length 13927
 >>
 stream
 0.5670000000000001 w
@@ -88,7 +88,7 @@ BT
 9.1999999999999993 TL
 0. g
 39.6850393700787407 712.6301574803148924 Td
-(AI/ML Engineer with 3 years of experience in Generative AI, Agentic AI, Machine Learning, Large Language Models \(LLMs\), and intelligent) Tj
+(AI Engineer with 3 years of experience in Generative AI, Agentic AI, Machine Learning, Large Language Models \(LLMs\), and intelligent) Tj
 ET
 BT
 /F1 8 Tf
@@ -504,13 +504,13 @@ BT
 10.3499999999999996 TL
 0. g
 39.6850393700787407 321.7325196850395059 Td
-(Agentic AI Travel Booking Assistant) Tj
+(AI-Powered Workflow Automation using LangGraph and LangChain with Chatbot UI Integration) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0.314 g
-192.5050393700787197 321.7325196850395059 Td
+445.045039370078598 321.7325196850395059 Td
 (  |  2026) Tj
 ET
 BT
@@ -518,90 +518,90 @@ BT
 9.1999999999999993 TL
 0.039 0.039 0.541 rg
 39.6850393700787407 308.9766141732285405 Td
-(https://github.com/BDheerajChandan/InHouse_Projects/tree/main/AI%20Agent%20-%20Project%201%20%2C%20Travel%20booking) Tj
-ET
-BT
-/F1 8 Tf
-9.1999999999999993 TL
-0. g
-39.6850393700787407 297.071102362204897 Td
-(Expanded an Agentic AI-based travel booking assistant that leverages Large Language Models \(LLMs\) and AI agents to understand user queries) Tj
-ET
-BT
-/F1 8 Tf
-9.1999999999999993 TL
-0. g
-39.6850393700787407 285.1655905511813671 Td
-(and automate travel-related tasks. Planned multistep reasoning workflows to handle itinerary planning, travel recommendations, and contextual) Tj
-ET
-BT
-/F1 8 Tf
-9.1999999999999993 TL
-0. g
-39.6850393700787407 273.2600787401577236 Td
-(decision-making using tool-integrated AI systems.) Tj
-ET
-BT
-/F2 9 Tf
-10.3499999999999996 TL
-0. g
-39.6850393700787407 254.2679527559057533 Td
-(AI-Powered Workflow Automation using LangGraph and LangChain with Chatbot UI Integration) Tj
-ET
-BT
-/F1 8 Tf
-9.1999999999999993 TL
-0.314 g
-445.045039370078598 254.2679527559057533 Td
-(  |  2026) Tj
-ET
-BT
-/F3 8 Tf
-9.1999999999999993 TL
-0.039 0.039 0.541 rg
-39.6850393700787407 241.5120472440947879 Td
 (https://github.com/BDheerajChandan/InHouse_Projects/tree/main/Agentic_AI_Workflow) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
-39.6850393700787407 229.6065354330711443 Td
+39.6850393700787407 297.071102362204897 Td
 (Developed a modular AI workflow automation platform using LangChain and LangGraph with configurable workflows, state management,) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
-39.6850393700787407 217.7010236220476145 Td
+39.6850393700787407 285.1655905511813671 Td
 (conditional routing, and tool calling. Implemented AI agent and multistep workflows for RAG, document processing, retrieval, validation, and) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
-39.6850393700787407 205.7955118110239709 Td
+39.6850393700787407 273.2600787401577236 Td
 (automated task execution. Integrated a React-based chatbot UI with FastAPI backend APIs to enable conversational interaction and workflow) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
-39.6850393700787407 193.8900000000004411 Td
+39.6850393700787407 261.3545669291341937 Td
 (execution. Used PostgreSQL for managing workflows, chatbot sessions, execution history, and results.) Tj
 ET
 BT
 /F2 9 Tf
 10.3499999999999996 TL
 0. g
-39.6850393700787407 174.8978740157484708 Td
+39.6850393700787407 242.3624409448822234 Td
 (Retrieval-Augmented Generation \(RAG\) Question Answering System) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0.314 g
-332.1850393700787549 174.8978740157484708 Td
+332.1850393700787549 242.3624409448822234 Td
+(  |  2026) Tj
+ET
+BT
+/F3 8 Tf
+9.1999999999999993 TL
+0.039 0.039 0.541 rg
+39.6850393700787407 229.6065354330711443 Td
+(https://github.com/BDheerajChandan/InHouse_Projects/tree/main/RAG_QA) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+39.6850393700787407 217.7010236220476145 Td
+(Enhanced a Retrieval-Augmented Generation \(RAG\) based question answering system that processes documents from local directories,) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+39.6850393700787407 205.7955118110239709 Td
+(generates embeddings, and stores them in a vector database. Executed semantic search to retrieve relevant context and integrated Large) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+39.6850393700787407 193.8900000000004411 Td
+(Language Models \(LLMs\) to generate accurate, context-aware responses.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0. g
+39.6850393700787407 174.8978740157484708 Td
+(Agentic AI Travel Booking Assistant) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.314 g
+192.5050393700787197 174.8978740157484708 Td
 (  |  2026) Tj
 ET
 BT
@@ -609,28 +609,28 @@ BT
 9.1999999999999993 TL
 0.039 0.039 0.541 rg
 39.6850393700787407 162.1419685039375054 Td
-(https://github.com/BDheerajChandan/InHouse_Projects/tree/main/RAG_QA) Tj
+(https://github.com/BDheerajChandan/InHouse_Projects/tree/main/AI%20Agent%20-%20Project%201%20%2C%20Travel%20booking) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
 39.6850393700787407 150.2364566929138618 Td
-(Enhanced a Retrieval-Augmented Generation \(RAG\) based question answering system that processes documents from local directories,) Tj
+(Expanded an Agentic AI-based travel booking assistant that leverages Large Language Models \(LLMs\) and AI agents to understand user queries) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
 39.6850393700787407 138.3309448818902183 Td
-(generates embeddings, and stores them in a vector database. Executed semantic search to retrieve relevant context and integrated Large) Tj
+(and automate travel-related tasks. Planned multistep reasoning workflows to handle itinerary planning, travel recommendations, and contextual) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
 39.6850393700787407 126.4254330708666885 Td
-(Language Models \(LLMs\) to generate accurate, context-aware responses.) Tj
+(decision-making using tool-integrated AI systems.) Tj
 ET
 BT
 /F2 9 Tf
@@ -1247,7 +1247,7 @@ endobj
 21 0 obj
 <<
 /Producer (jsPDF 4.2.1)
-/CreationDate (D:20261003172413+05'30')
+/CreationDate (D:20261024230147+05'30')
 >>
 endobj
 22 0 obj
@@ -1261,35 +1261,35 @@ endobj
 xref
 0 23
 0000000000 65535 f 
-0000021566 00000 n 
-0000023391 00000 n 
+0000021563 00000 n 
+0000023388 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000014135 00000 n 
-0000014272 00000 n 
-0000021629 00000 n 
-0000021754 00000 n 
-0000021884 00000 n 
-0000022017 00000 n 
-0000022155 00000 n 
-0000022279 00000 n 
-0000022408 00000 n 
-0000022540 00000 n 
-0000022676 00000 n 
-0000022804 00000 n 
-0000022931 00000 n 
-0000023060 00000 n 
-0000023193 00000 n 
-0000023295 00000 n 
-0000023641 00000 n 
-0000023727 00000 n 
+0000014132 00000 n 
+0000014269 00000 n 
+0000021626 00000 n 
+0000021751 00000 n 
+0000021881 00000 n 
+0000022014 00000 n 
+0000022152 00000 n 
+0000022276 00000 n 
+0000022405 00000 n 
+0000022537 00000 n 
+0000022673 00000 n 
+0000022801 00000 n 
+0000022928 00000 n 
+0000023057 00000 n 
+0000023190 00000 n 
+0000023292 00000 n 
+0000023638 00000 n 
+0000023724 00000 n 
 trailer
 <<
 /Size 23
 /Root 22 0 R
 /Info 21 0 R
-/ID [ <90CF022F15D021AF4BB3B60BA894D0C6> <90CF022F15D021AF4BB3B60BA894D0C6> ]
+/ID [ <304316A692E121C291979F5017BA4ECE> <304316A692E121C291979F5017BA4ECE> ]
 >>
 startxref
-23831
+23828
 %%EOF
