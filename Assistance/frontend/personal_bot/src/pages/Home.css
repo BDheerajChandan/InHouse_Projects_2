@@ -1,0 +1,15 @@
+/* frontend/personal_bot/src/pages/Home.css */
+.home { max-width: 960px; margin: 0 auto; padding: 32px 16px; display: grid; gap: 24px; }
+.home-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.home-head h1 { font-size: 1.6rem; margin: 0; }
+.bot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.bot-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; display: grid; gap: 12px; }
+.bot-card .top { display: flex; gap: 12px; align-items: center; }
+.bot-card .meta { display: grid; line-height: 1.25; min-width: 0; }
+.bot-card .meta strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bot-card .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.bot-card a.btn { text-decoration: none; text-align: center; }
+.bot-new { border: 2px dashed var(--border); background: transparent; border-radius: var(--radius); min-height: 150px; cursor: pointer; display: grid; place-content: center; gap: 4px; text-align: center; color: var(--muted); }
+.bot-new:hover { border-color: var(--accent); color: var(--accent); }
+.bot-new span { font-size: 1.8rem; line-height: 1; }
+.empty { text-align: center; color: var(--muted); padding: 24px 0; }
