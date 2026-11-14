@@ -29,8 +29,8 @@ export default function App() {
     generateResumePDF({
       name:            "B.Dheeraj Chandan",
       contact:         "Bhubaneswar, Odisha",
-      phone:           "+91-7995987744",
-      email:           "chandandheerajbalivada@gmail.com",
+      phone:           "+91-0000000000",
+      email:           "",
       links:           profileLinks,
       summary:         summaryData.summary,
       work:            workData,

@@ -13,9 +13,9 @@ export default function ProfileHeading() {
       <p className="profile-contact value-text">
         Bhubaneswar, Odisha
         <span className="pipe"> | </span>
-        <span>Email: ""</span>
+        <span >Email: ""</span>
         <span className="pipe"> | </span>
-        <span>Phone: +91-000000000</span>
+        <span>Phone: +91-0000000000</span>
       </p>
 
       {/* Profile links — LinkedIn on its own labelled line */}
